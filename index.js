@@ -27,7 +27,7 @@ fs.readdir(destination, (err, files) => {
           })
         ]
       }).then(function(done) {
-        console.log(`${done.length} images converted!");
+        console.log(`${done.length} images converted!`);
       })
       .catch(err => {
         console.log('An error occurred')
